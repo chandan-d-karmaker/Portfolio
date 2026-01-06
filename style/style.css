@@ -124,6 +124,9 @@ text-decoration: none;
     height: 676px;
     vertical-align: middle;
 }
+#about{
+    padding: 130px 230px;
+}
 
 .about-container{
     /* width: 1140px;
@@ -198,8 +201,8 @@ text-decoration: none;
     line-height: 30px;
 }
 
-#skills, #about{
-    padding: 130px 230px;
+#skills{
+    padding-top: 130px;
 }
 
 .skill-container{
@@ -211,15 +214,14 @@ text-decoration: none;
 .skill-box{
     display: flex;
     gap: 24px;
+    align-items: center;
 }
 
 .skill-card{
-    width: 267px;
-    height: 377px;
+    max-width: 267px;
     border-radius: 5px;
-    background: #FFF;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
-    padding: 30px 33px;
+    padding: 30px;
 }
 
 .skill-card img{
@@ -239,7 +241,6 @@ text-decoration: none;
 }
 
 .skill-card p{
-    width: 201px;
 
     color: #757575;
     font-family: "Open Sans";
@@ -304,3 +305,69 @@ text-decoration: none;
     margin: 30px 0;
 }
 
+.txt-center{
+    text-align: center;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container h2{
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.footer-container p{
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 30px;
+}
+
+.icons a{
+    margin-right: 24px;
+}
+
+.social{
+    max-width: 562px;
+}
+
+.footer-container form input[type="text"] {
+    width: 461px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #757575;
+    padding: 18px 32px;
+    margin-bottom: 24px;
+}
+
+.footer-container form textarea{
+    max-width: 461px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #757575;
+    padding: 18px 32px;
+    margin-bottom: 24px;
+}
